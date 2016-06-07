@@ -256,8 +256,8 @@
 		436A0DA41D236A2A00104B24 /* LoopError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopError.swift; sourceTree = "<group>"; };
 		436FACEB1D0BA246004E2427 /* SegmentedControlTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlTableViewCell.swift; sourceTree = "<group>"; };
 		436FACED1D0BA636004E2427 /* InsulinDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsulinDataSource.swift; sourceTree = "<group>"; };
-		43776F8C1B8022E90074EA36 /* Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		43776F8F1B8022E90074EA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43776F8C1B8022E90074EA36 /* Naterade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naterade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43776F8F1B8022E90074EA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43776F961B8022E90074EA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43776F981B8022E90074EA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43776F9B1B8022E90074EA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -465,7 +465,7 @@
 		43776F8D1B8022E90074EA36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43776F8C1B8022E90074EA36 /* Loop.app */,
+				43776F8C1B8022E90074EA36 /* Naterade.app */,
 				43A943721B926B7B0051FA24 /* WatchApp.app */,
 				43A9437E1B926B7B0051FA24 /* WatchApp Extension.appex */,
 				43E2D8D11D20BF42004DA55F /* DoseMathTests.xctest */,
@@ -678,9 +678,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43776F8B1B8022E90074EA36 /* Loop */ = {
+		43776F8B1B8022E90074EA36 /* Naterade */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43776FB61B8022E90074EA36 /* Build configuration list for PBXNativeTarget "Loop" */;
+			buildConfigurationList = 43776FB61B8022E90074EA36 /* Build configuration list for PBXNativeTarget "Naterade" */;
 			buildPhases = (
 				43776F881B8022E90074EA36 /* Sources */,
 				43776F891B8022E90074EA36 /* Frameworks */,
@@ -694,9 +694,9 @@
 			dependencies = (
 				43A943931B926B7B0051FA24 /* PBXTargetDependency */,
 			);
-			name = Loop;
+			name = Naterade;
 			productName = Naterade;
-			productReference = 43776F8C1B8022E90074EA36 /* Loop.app */;
+			productReference = 43776F8C1B8022E90074EA36 /* Naterade.app */;
 			productType = "com.apple.product-type.application";
 		};
 		43A943711B926B7B0051FA24 /* WatchApp */ = {
@@ -783,6 +783,7 @@
 				TargetAttributes = {
 					43776F8B1B8022E90074EA36 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 57NRR26737;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -800,6 +801,7 @@
 					};
 					43A943711B926B7B0051FA24 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 57NRR26737;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -808,6 +810,7 @@
 					};
 					43A9437D1B926B7B0051FA24 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 57NRR26737;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -842,7 +845,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43776F8B1B8022E90074EA36 /* Loop */,
+				43776F8B1B8022E90074EA36 /* Naterade */,
 				43A943711B926B7B0051FA24 /* WatchApp */,
 				43A9437D1B926B7B0051FA24 /* WatchApp Extension */,
 				43E2D8D01D20BF42004DA55F /* DoseMathTests */,
@@ -1374,7 +1377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43776FB61B8022E90074EA36 /* Build configuration list for PBXNativeTarget "Loop" */ = {
+		43776FB61B8022E90074EA36 /* Build configuration list for PBXNativeTarget "Naterade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43776FB71B8022E90074EA36 /* Debug */,
